@@ -1,0 +1,171 @@
+*{
+	font-family: Century Gothic;
+}
+
+.clear {
+	clear:both;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/infoBackground.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 30px;
+	margin-right: 10px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000; 
+}
+
+.main{
+	max-width: 1200px;
+	min-width: 700px;
+	margin: auto;
+}
+
+.title{
+	float: left;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+.title h1{
+	color: #fff;
+	font-size: 70px;
+}
+/* section2 */
+.intro{
+	width: 90%;
+	margin: auto;
+}
+
+.block{
+	float:left;
+	width:33.3%;
+	background-color: #123456;
+	color: #fff;
+	border: 5px red solid;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.block h3{
+	font-family: Tahoma;
+	font-style: italic;
+	letter-spacing: 0.2em;
+}
+
+.signup{
+	width: 90%;
+	margin: auto;
+	height: 500px;
+	border-style: dotted;
+	border-color: red;
+	text-align: center;
+	background-color: #123456;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.signup h1, h2{
+	padding-top: 10px;
+	color: #fff; 
+}
+
+.signup .signupForm .form-group{
+	padding-bottom: 15px;
+}
+
+.signup .signupForm label{
+	color: #fff; 
+	padding: 10px;
+	display: block;
+}
+
+.signup .signupForm input{
+	padding: 10px;
+	width: 80%
+}
+
+.signup .signupForm .submitButton{
+	width: 30%;
+}
+
+.signup p{
+	color: grey;
+}
+
+.statistics{
+	width: 90%;
+	margin: auto;
+}
+
+.statistics h1{
+	text-align: center;
+	color: #000;
+}
+
+.statistics .statisticsIntro p{
+	text-align: center;
+	color: #000;
+}
+
+.statisticsFactors{
+	float: left;
+	border: green 20px solid;
+	padding: 10px;
+	width: 33%;
+	text-align: center;
+	box-sizing: border-box;
+	margin: 1px;
+}
+
+.statistics .statisticsFactors .number{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
