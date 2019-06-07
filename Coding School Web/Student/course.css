@@ -1,0 +1,218 @@
+*{
+	font-family: Century Gothic;
+}
+
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/infoBackground.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 30px;
+	margin-right: 10px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000; 
+}
+
+.title{
+	float: left;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+.title h1{
+	color: #fff;
+	font-size: 70px;
+}
+
+
+
+
+
+
+
+.introTitle{
+	background-color: rgb(50, 115, 220);
+	width: 100%;
+	height: 200px;
+	display:table;
+}
+
+.introTitle h1{
+	color: white;
+	height: 200px;
+	text-align: center;
+	display:table-cell;
+    vertical-align:middle;
+}
+
+.courseSummarize{
+	background-color: #dcdcdc;
+	padding: 10%;
+}
+
+.courseSummarize p{
+	color: gray;
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 25px;
+}
+
+.courseSummarize a:link {
+  color: red;
+}
+
+/* visited link */
+.courseSummarize a:visited {
+  color: green;
+}
+
+/* mouse over link */
+.courseSummarize a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+.courseSummarize a:active {
+  color: blue;
+}
+
+
+.courseStrength{
+  	float:left;
+	width:20%;
+	margin-left : 10px;
+	border-style: inset;
+}
+
+.courseStrength .strength img{
+	width: 100%;
+	height: auto;
+}
+
+.courseStrength .strength p{
+	width: 100%;
+	text-align: center;
+}
+
+.rightSection{
+	margin-left: 30%;
+	width: auto;
+	margin-right: 10px;
+}
+
+.rightSection .title{
+	padding: 5%;	
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	text-align: center;
+}
+
+.rightSection .title h1{
+	color: blue;
+}
+
+.courseType{
+	float: left;
+	padding: 10px;
+	width: 90%;
+	margin-right: 5%;
+	margin-left: 5%;
+	border-style: solid;
+}
+
+.graduate{
+	border-style: solid;
+}
+
+.graduate .graduateTitle{
+	font-size: 15px;
+}
+
+.mailing{
+	width: 100%
+	padding: 20px;
+	text-align: center;
+	margin: 10px 10px 10px 10px;
+	font-size: 20px;
+	border-style: double;
+}
+
+.emailTextBox{
+	width: 50%;
+	height: 30px;
+	margin: 10px 10px 10px 10px;
+}
+
+.graduate{
+	margin: 20px 20px 20px 20px;
+	padding: 10%;
+}
+
+.graduate .graduateTitle{
+	padding: 10%;
+
+	text-align: center;
+	font-size: 50px;
+}
+
+.graduateText{
+	text-align: center;
+	font-size: 50px;
+}
+
+.emailSubmitButtom{
+	width: 40%;
+	height: 30px;
+	margin: 10px 10px 10px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
