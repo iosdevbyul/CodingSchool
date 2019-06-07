@@ -51,3 +51,44 @@ ul li.active a{
 	color: #fff;
 	font-size: 70px;
 }
+
+.beliefs{
+	font-weight: bold;
+	text-align: center;
+	margin: 10% 10% 10% 10%;
+}
+
+.beliefs .beliefsTitle{
+	text-align: center;
+}
+
+.beliefs .beliefsContant{
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+}	
+
+hr{
+	width: 30%;
+}
+
+img{
+	width: 300px;
+	height: auto;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+h3{
+	text-align: center;
+	
+}
+
+.reviewContent{
+	margin-left: 20%;
+  	margin-right: 20%;
+}
+
+
+
